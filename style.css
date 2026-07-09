@@ -1,0 +1,49 @@
+
+
+/* comon style */
+* {color: rgb(95, 95, 95);
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.comon-btn {
+    background-color: #1D4ED8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(251, 251, 251);
+    border: none;
+    cursor: pointer;
+}
+
+/* comon style */
+
+nav {
+     display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    
+}
+.container{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 24px;
+    
+}
+ul li a {
+    text-decoration: none;
+}
+ 
+.comon-btn .btn{
+     
+}
