@@ -1,11 +1,11 @@
-
-
 /* comon style */
-* {color: rgb(95, 95, 95);
+* {
+    color: rgb(0, 0, 0);
     padding: 0;
     margin: 0;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
+
 .comon-btn {
     background-color: #1D4ED8;
     padding: 10px 20px;
@@ -18,16 +18,18 @@
 
 /* comon style */
 
+/* navbar start */
 nav {
-     display: flex;
+    display: flex;
     justify-content: space-between;
     padding: 12px 20px;
     align-items: center;
     margin: auto;
     height: auto;
-    
+
 }
-.container{
+
+.container {
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -38,12 +40,60 @@ ul {
     justify-content: space-between;
     list-style: none;
     gap: 24px;
-    
+
 }
+.nav-intem, li a{
+    color: rgb(107, 107, 107);
+}
+
 ul li a {
     text-decoration: none;
 }
- 
-.comon-btn .btn{
-     
+
+/* navbar end */
+
+/* banner  started */
+
+.banner {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("./image/banner.jpg");
+    width: auto;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overlay: auto;
+
 }
+
+.banner-container {
+
+    text-align: center;
+    max-width: 800px;
+    padding-bottom: 20px;
+}
+
+.banner-container h2 {
+    font-size: 4.2em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+span {
+    font-style: italic;
+    color: white;
+}
+
+.banner-container p {
+    margin-bottom: 180px;
+}
+
+.banner-description {
+    color: rgb(215, 215, 215);
+}
+/* banner  END */
