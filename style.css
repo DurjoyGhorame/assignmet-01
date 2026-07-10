@@ -34,6 +34,10 @@ nav {
     padding-right: 150px;
 }
 
+#regi-btn {
+      font-size: 25px;
+    padding: 15px 20px;
+}
 
 ul {
     display: flex;
@@ -42,7 +46,9 @@ ul {
     gap: 24px;
 
 }
-.nav-intem, li a{
+
+.nav-intem,
+li a {
     color: rgb(107, 107, 107);
 }
 
@@ -70,6 +76,7 @@ ul li a {
 
 }
 
+
 .banner-container {
 
     text-align: center;
@@ -96,4 +103,86 @@ span {
 .banner-description {
     color: rgb(215, 215, 215);
 }
+
 /* banner  END */
+
+/* Speakers-box started */
+
+.Speakers-parent {
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+.Speakers-headline {
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.Speakers-container {
+    width: 90%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+    margin: auto;
+}
+
+.card-box {
+    background: #fff;
+    border: 1PX solid #eeeeee;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-box img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.card-box:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    cursor: pointer;
+}
+
+/* card details */
+.Andrej-card-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.Demis-Hassabis-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.Gary-Marcus-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.Mustafa-Suleyman-details {
+    padding: 20px;
+    text-align: left;
+}
+
+/* dipartment color h5  */
+
+.dipartment {
+    color: #1D4ED8;
+}
+
+/* p tag in speaker box */
+
+.designation {
+    color: rgb(117, 117, 117);
+}
+
+ //  /* Speakers-box end */  //
+ 
