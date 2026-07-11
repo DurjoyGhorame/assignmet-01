@@ -255,36 +255,58 @@ span {
     border-bottom: 1px solid #d9d6d6;
 }
 
+.comon-btn,
+.comon-btn-outline {
+    width: 100%;
+    max-width: 220px
+}
+
+
 .pricing-card ul {
     padding-left: 20px;
     margin: 25px solid #d7d7d7;
 }
+
 .pricing-card li {
     margin-bottom: 12px;
 }
+
 .pricing-card-container .pricing-card ul li {
     color: #4745ac;
 }
- .pricing-card-container .pricing-card  .p-tag-pro-price {
-    margin-bottom: 10px;
-    color: #c5c5c5;   
-}
- .pricing-card-container .pricing-card  .p-tag-team-price {
-    margin-bottom: 10px;
- }
 
- .pricing-card-container .pricing-card  .pro-price {
+
+.pricing-card-container .pricing-card .p-tag-Standard-price,
+.p-tag-Team-price {
+    margin-bottom: 10px;
+    color: #c5c5c5;
+
+}
+
+.pricing-card-container .pricing-card .p-tag-team-price {
+    margin-bottom: 10px;
+}
+
+.pricing-card-container .pricing-card .p-tag-pro-price {
+    margin-bottom: 10px;
+    color: #727272;
+}
+
+/* pro price color white */
+.pricing-card-container .pricing-card .pro-price {
     color: #ffffff;
 }
 
-.pricing-card-container .pricing-card  .pro-card  {
+.pricing-card-container .pricing-card .pro-card {
     color: #4745ac;
 }
 
+/* list text color*/
 .pricing-card-container .pricing-card ul li p {
     color: #8d8d8d;
 }
 
+/* pro color */
 .pricing-card-container .pro {
     background-color: #0D1B2A;
 }
@@ -297,4 +319,156 @@ span {
 .pricing-card div {
     display: flex;
     justify-content: center;
-    margin-top: 30px;}
+    margin-top: 30px;
+}
+
+
+
+/* pricing card section end   */
+
+/* placeholder section started */
+
+/* Venue Section */
+
+.venue-parent{
+    width: 90%;
+    max-width: 1250px;
+
+    margin: 80px auto;
+
+    padding: 60px;
+
+    background: #fff;
+
+    border: 1px solid #dddddd;
+    border-radius: 16px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+}
+
+.venue-container{
+    width:100%;
+}
+
+.venue-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.venue-title h2{
+    font-size:3.5rem;
+    margin-bottom:15px;
+}
+
+.venue-title p{
+    max-width:700px;
+    margin:auto;
+    line-height:28px;
+    color:#757575;
+}
+
+.venue-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+}
+
+.venue-image{
+    flex:1;
+}
+
+.venue-image img{
+    width:100%;
+    border-radius:16px;
+}
+
+.venue-info{
+    flex:1;
+}
+
+.venue-info h3{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.venue-info p{
+    margin-bottom:15px;
+    color:#666;
+}
+
+.venue-info ul{
+    padding-left:22px;
+    margin:30px 0;
+}
+
+.venue-info li{
+    margin-bottom:12px;
+}
+
+.venue-info button{
+    margin-top:20px;
+}
+/* placeholder section end */
+
+
+
+
+
+/* footer started */
+
+.footer-parent {
+    padding: 40px 0;
+    background-color: #2e3f6d;
+}
+
+.footer-container,
+.footer-down {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-container {
+
+    margin-bottom: 25px;
+
+}
+
+
+.footer-down {
+    display: flex;
+    justify-content: space-between;
+    gap: 900px;
+    margin: 0 auto;
+    align-items: center;
+    color: white;
+}
+
+
+.footer-policy {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-policy p {
+    margin: 0;
+}
+
+hr {
+    width: auto;
+    max-width: auto;
+    margin: 20px auto;
+}
+
+.footer-social {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
