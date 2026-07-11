@@ -10,11 +10,26 @@
     background-color: #1D4ED8;
     padding: 10px 20px;
     border-radius: 8px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(251, 251, 251);
     border: none;
     cursor: pointer;
 }
+
+.comon-btn-outline {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #a4a4a4;
+    cursor: pointer
+}
+
+
+
 
 /* comon style */
 
@@ -35,11 +50,11 @@ nav {
 }
 
 #regi-btn {
-      font-size: 25px;
+    font-size: 25px;
     padding: 15px 20px;
 }
 
-ul {
+.nav-intem {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -52,7 +67,7 @@ li a {
     color: rgb(107, 107, 107);
 }
 
-ul li a {
+ul .nav-list a {
     text-decoration: none;
 }
 
@@ -184,5 +199,102 @@ span {
     color: rgb(117, 117, 117);
 }
 
- //  /* Speakers-box end */  //
- 
+/* Speakers-box end */
+
+/* pricing card section started   */
+
+.pricing-parent {
+    padding: 100px 0;
+
+}
+
+
+.pricing-container {
+    text-align: center;
+}
+
+.pricing-heading {
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.pricing-p-tag {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(117, 117, 117);
+}
+
+.pricing-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    gap: 35px;
+}
+
+.pricing-card {
+    border: 1px solid #d7d7d7;
+    border-radius: 12px;
+    padding: 35px;
+    text-align: left;
+    background-color: rgb(255, 254, 254);
+    width: 320px;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d9d6d6;
+}
+
+.pricing-card ul {
+    padding-left: 20px;
+    margin: 25px solid #d7d7d7;
+}
+.pricing-card li {
+    margin-bottom: 12px;
+}
+.pricing-card-container .pricing-card ul li {
+    color: #4745ac;
+}
+ .pricing-card-container .pricing-card  .p-tag-pro-price {
+    margin-bottom: 10px;
+    color: #c5c5c5;   
+}
+ .pricing-card-container .pricing-card  .p-tag-team-price {
+    margin-bottom: 10px;
+ }
+
+ .pricing-card-container .pricing-card  .pro-price {
+    color: #ffffff;
+}
+
+.pricing-card-container .pricing-card  .pro-card  {
+    color: #4745ac;
+}
+
+.pricing-card-container .pricing-card ul li p {
+    color: #8d8d8d;
+}
+
+.pricing-card-container .pro {
+    background-color: #0D1B2A;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 08px 20px rgb(0, 0, 0, .1);
+}
+
+.pricing-card div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;}
